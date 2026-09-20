@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+    <>
     <div className={styles.container}>
       <button type="button" className={styles.btn}>浮く・文字間</button> 
       <button type="button" className={styles.slide}>スライド</button>  
@@ -14,6 +15,15 @@ export default function Home() {
       <div className={styles.grad}>グラデーション</div>
 
     </div>
+    <div className={styles.container}>
+      <div className={styles.move}>
+        <div className={styles.child}></div>
+        <div className={styles.child}></div>
+      </div>
+    </div>
+
+    </>
+
 
   );
 }
