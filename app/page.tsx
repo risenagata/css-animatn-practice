@@ -16,9 +16,19 @@ export default function Home() {
 
     </div>
     <div className={styles.container}>
+      {/* ふわふわ */}
       <div className={styles.move}>
         <div className={styles.child}></div>
         <div className={styles.child}></div>
+      </div>
+      {/* スライドアニメーション */}
+      <div className={styles.slider}>
+        <div className={styles.smash}>
+          <div className={styles.liner}></div>
+        </div>
+        <div className={styles.smash}>
+          <div className={styles.liner}></div>
+        </div>
       </div>
     </div>
 
