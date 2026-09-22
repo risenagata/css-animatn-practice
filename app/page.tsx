@@ -30,7 +30,12 @@ export default function Home() {
           <div className={styles.liner}></div>
         </div>
       </div>
+      {/*ボール */}
+      <div className={styles.ball}>
+        <div className={styles.sircle}></div>
+      </div>
     </div>
+
 
     </>
 
